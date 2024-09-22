@@ -1,0 +1,74 @@
+.Container { 
+    width: 430px;
+    margin: 10px;
+}
+
+.newInfoInput {
+    display: flex;
+    column-gap: 15px;
+    align-items: flex-end;
+    margin-bottom: 10px;
+   }
+
+.newInfoInput-date-input, .newInfoInput-km-input {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.colWidth{
+    min-width: 150px;
+}
+
+.table{
+    display:flex;
+    flex-direction: column;
+   
+}
+
+.tableHead {
+    display:flex;
+    flex-direction:row; 
+    margin-bottom: 5px;
+    column-gap: 20px;
+    padding: 5px;
+}
+
+.tableInfo {
+    border: 1px solid black;
+    padding: 5px; 
+    border-radius: 8px;
+}
+
+.tableItem {
+    display:flex;
+    flex-direction:row;
+    column-gap: 15px;
+    
+}
+
+.tableItem-date, .tableItem-km{
+    padding: 5px;
+}
+
+.btn {
+    background-position: center;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+
+.tableItem-remove {
+    background-image: url('./img/del.gif');
+}
+
+.tableItem-edit {
+    background-image: url('./img/edit.gif');
+
+}
+
